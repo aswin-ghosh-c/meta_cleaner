@@ -1,0 +1,30 @@
+{
+  "appName": "Sanitizador Anónimo de Documentos",
+  "tag": "Sin Persistencia",
+  "title": "Sanitizador Anónimo de Documentos",
+  "description": "Elimine metadatos, perfiles EXIF y etiquetas de seguimiento de sus archivos JPEG y PNG. Procesado íntegramente en memoria temporal. Nunca almacenado, nunca registrado.",
+  "dragText": "Arrastre y suelte su imagen aquí, o",
+  "browse": "seleccione",
+  "subtext": "Admite imágenes JPEG, JPG y PNG de hasta 10 MB",
+  "btnSanitize": "Sanitizar Imagen",
+  "btnProcessing": "Procesando...",
+  "successMsg": "¡Imagen sanitizada y descargada con éxito!",
+  "errorUnsupportedType": "Tipo de archivo no admitido. Seleccione una imagen JPEG, JPG o PNG.",
+  "errorTooLarge": "El archivo es demasiado grande. El tamaño máximo permitido es 10 MB.",
+  "termsTitle": "Términos y Condiciones",
+  "privacyTitle": "Política de Privacidad",
+  "footerText": "Impulsado por una arquitectura de persistencia cero.",
+  "githubLinkText": "Ver código fuente en GitHub",
+  "terms": [
+    { "title": "Aceptación de los Términos", "text": "Al acceder y utilizar esta herramienta, usted acepta explícitamente estos Términos y Condiciones. Si no está de acuerdo, cese la operación de inmediato." },
+    { "title": "Propósito de Uso", "text": "Esta herramienta está diseñada exclusivamente para la optimización de datos personales, la minimización de datos y la preservación de la privacidad individual." },
+    { "title": "Operaciones Ilícitas", "text": "Está estrictamente prohibido utilizar esta herramienta para alterar información digital involucrada en litigios activos, citaciones legales o procedimientos judiciales (Spoliación de Evidencia)." },
+    { "title": "Gestión de Derechos de Autor", "text": "Usted acepta no utilizar esta herramienta para eliminar la Información de Gestión de Derechos de Autor (CMI) según lo definido en los marcos de derechos de autor digitales con el fin de robo de propiedad intelectual o explotación comercial no autorizada." },
+    { "title": "Limitación de Responsabilidad", "text": "Este servicio se proporciona \"tal cual\" sin garantías de ningún tipo. El desarrollador asume cero responsabilidad por el incumplimiento del usuario, mal uso estructural o modificaciones de datos." }
+  ],
+  "privacy": [
+    { "title": "Cero Retención de Datos", "text": "No recopilamos, procesamos, rastreamos ni retenemos ningún dato enviado a esta aplicación." },
+    { "title": "Procesamiento en Memoria", "text": "Sus archivos se manejan estrictamente dentro de la memoria volátil del tiempo de ejecución de PHP durante la vida útil de la solicitud de red. Los archivos se eliminan automáticamente al finalizar la ejecución." },
+    { "title": "Sin Identificadores", "text": "Este sitio no utiliza scripts de seguimiento, cookies, análisis ni dependencias externas de terceros. Sus operaciones siguen siendo completamente confidenciales." }
+  ]
+}

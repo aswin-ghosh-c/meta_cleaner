@@ -1,0 +1,30 @@
+{
+  "appName": "Désinfecteur de Documents Anonyme",
+  "tag": "Sans Persistance",
+  "title": "Désinfecteur de Documents Anonyme",
+  "description": "Supprimez les métadonnées, les profils EXIF et les balises de suivi de vos fichiers JPEG et PNG. Traité entièrement en mémoire temporaire. Jamais stocké, jamais enregistré.",
+  "dragText": "Glissez-déposez votre image ici, ou",
+  "browse": "parcourir",
+  "subtext": "Prend en charge les images JPEG, JPG et PNG jusqu'à 10 Mo",
+  "btnSanitize": "Nettoyer l'image",
+  "btnProcessing": "Traitement...",
+  "successMsg": "Image nettoyée et téléchargée avec succès !",
+  "errorUnsupportedType": "Type de fichier non pris en charge. Veuillez sélectionner une image JPEG, JPG ou PNG.",
+  "errorTooLarge": "Le fichier est trop volumineux. La taille maximale autorisée est de 10 Mo.",
+  "termsTitle": "Conditions Générales",
+  "privacyTitle": "Politique de Confidentialité",
+  "footerText": "Propulsé par une architecture sans persistance.",
+  "githubLinkText": "Voir le code source sur GitHub",
+  "terms": [
+    { "title": "Acceptation des Conditions", "text": "En accédant et en utilisant cet outil, vous acceptez explicitement ces Conditions Générales. Si vous n'êtes pas d'accord, cessez immédiatement l'utilisation." },
+    { "title": "But de l'Utilisation", "text": "Cet outil est conçu exclusivement pour l'optimisation des données personnelles, la minimisation des données et la préservation de la vie privée." },
+    { "title": "Opérations Illicites", "text": "Il vous est strictement interdit d'utiliser cet outil pour modifier des informations numériques impliquées dans des litiges en cours, des assignations à comparaître ou des procédures judiciaires (Dissimulation de Preuves)." },
+    { "title": "Gestion des Droits d'Auteur", "text": "Vous acceptez de ne pas utiliser cet outil pour supprimer les informations sur le droit d'auteur (CMI) définies par les lois sur le droit d'auteur numérique à des fins de vol de propriété intellectuelle ou d'exploitation commerciale non autorisée." },
+    { "title": "Limitation de Responsabilité", "text": "Ce service est fourni \"en l'état\" sans aucune garantie. Le développeur décline toute responsabilité en cas de non-respect par l'utilisateur, de mauvaise utilisation structurelle ou de modification des données." }
+  ],
+  "privacy": [
+    { "title": "Zéro Rétention de Données", "text": "Nous ne collectons, ne traitons, ne suivons et ne conservons aucune donnée soumise à cette application." },
+    { "title": "Traitement en Mémoire", "text": "Vos fichiers sont traités exclusivement dans la mémoire volatile de PHP pendant la durée de la requête réseau. Les fichiers sont supprimés automatiquement dès la fin de l'exécution." },
+    { "title": "Pas d'Identifiants", "text": "Ce site n'utilise aucun script de suivi, cookie, outil d'analyse ou dépendance tierce externe. Vos opérations restent totalement confidentielles." }
+  ]
+}

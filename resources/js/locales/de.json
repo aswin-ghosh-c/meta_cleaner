@@ -1,0 +1,30 @@
+{
+  "appName": "Anonymer Dokumenten-Bereiniger",
+  "tag": "Keine Speicherung",
+  "title": "Anonymer Dokumenten-Bereiniger",
+  "description": "Entfernen Sie Metadaten, EXIF-Profile und Tracking-Tags aus Ihren JPEG- und PNG-Dateien. Vollständig im flüchtigen Arbeitsspeicher verarbeitet. Niemals gespeichert, niemals protokolliert.",
+  "dragText": "Ziehen Sie Ihr Bild hierher oder",
+  "browse": "durchsuchen",
+  "subtext": "Unterstützt JPEG-, JPG- und PNG-Bilder bis zu 10 MB",
+  "btnSanitize": "Bild bereinigen",
+  "btnProcessing": "Verarbeitung...",
+  "successMsg": "Bild erfolgreich bereinigt und heruntergeladen!",
+  "errorUnsupportedType": "Nicht unterstützter Dateityp. Bitte wählen Sie ein JPEG-, JPG- oder PNG-Bild aus.",
+  "errorTooLarge": "Datei ist zu groß. Die maximal zulässige Größe beträgt 10 MB.",
+  "termsTitle": "Allgemeine Geschäftsbedingungen",
+  "privacyTitle": "Datenschutzerklärung",
+  "footerText": "Unterstützt durch eine persistenzfreie Architektur.",
+  "githubLinkText": "Quellcode auf GitHub ansehen",
+  "terms": [
+    { "title": "Zustimmung zu den Bedingungen", "text": "Durch den Zugriff auf dieses Tool und dessen Nutzung erklären Sie sich ausdrücklich mit diesen Allgemeinen Geschäftsbedingungen einverstanden. Wenn Sie nicht einverstanden sind, stellen Sie den Betrieb sofort ein." },
+    { "title": "Zweck der Nutzung", "text": "Dieses Tool wurde ausschließlich zur Optimierung personenbezogener Daten, Datenminimierung und zum Schutz der Privatsphäre des Einzelnen entwickelt." },
+    { "title": "Rechtswidrige Handlungen", "text": "Es ist Ihnen strengstens untersagt, dieses Tool zu verwenden, um digitale Informationen zu ändern, die in laufende aktive Gerichtsverfahren, rechtliche Vorladungen oder gerichtliche Verfahren verwickelt sind (Beweisvereitelung)." },
+    { "title": "Urheberrechtsmanagement", "text": "Sie erklären sich damit einverstanden, dieses Tool nicht zu verwenden, um Urheberrechts-Managementinformationen (CMI) im Sinne der digitalen Urheberrechtsgesetze zum Zwecke des Diebstahls geistigen Eigentums oder der unbefugten kommerziellen Verwertung zu entfernen." },
+    { "title": "Haftungsbeschränkung", "text": "Dieser Service wird \"wie gesehen\" ohne Gewährleistungen jeglicher Art bereitgestellt. Der Entwickler übernimmt keinerlei Haftung für die Nichteinhaltung durch den Nutzer, strukturellen Missbrauch oder Datenänderungen." }
+  ],
+  "privacy": [
+    { "title": "Keine Datenspeicherung", "text": "Wir erfassen, verarbeiten, verfolgen oder speichern keine an diese Anwendung übermittelten Daten." },
+    { "title": "Verarbeitung im Arbeitsspeicher", "text": "Ihre Dateien werden während der Lebensdauer der Netzwerkanfrage ausschließlich im flüchtigen PHP-Laufzeitspeicher verarbeitet. Dateien werden nach Abschluss der Ausführung automatisch gelöscht." },
+    { "title": "Keine Identifikatoren", "text": "Diese Website verwendet keine Tracking-Skripte, Cookies, Analysen oder externen Abhängigkeiten von Drittanbietern. Ihre Operationen bleiben vollständig vertraulich." }
+  ]
+}

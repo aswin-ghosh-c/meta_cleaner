@@ -1,0 +1,30 @@
+{
+  "appName": "Anonymous Document Sanitizer",
+  "tag": "Zero-Persistence",
+  "title": "Anonymous Document Sanitizer",
+  "description": "Strip metadata, EXIF profiles, and tracking tags from your JPEG and PNG files. Fully processed in transient memory. Never stored, never logged.",
+  "dragText": "Drag and drop your image here, or",
+  "browse": "browse",
+  "subtext": "Supports JPEG, JPG, and PNG images up to 10MB",
+  "btnSanitize": "Sanitize Image",
+  "btnProcessing": "Processing...",
+  "successMsg": "Image successfully sanitized and downloaded!",
+  "errorUnsupportedType": "Unsupported file type. Please select a JPEG, JPG, or PNG image.",
+  "errorTooLarge": "File is too large. Maximum size allowed is 10MB.",
+  "termsTitle": "Terms and Conditions",
+  "privacyTitle": "Privacy Policy",
+  "footerText": "Powered by zero-persistence architecture.",
+  "githubLinkText": "View Source on GitHub",
+  "terms": [
+    { "title": "Acceptance of Terms", "text": "By accessing and utilizing this tool, you explicitly agree to these Terms and Conditions. If you do not agree, cease operation immediately." },
+    { "title": "Purpose of Use", "text": "This tool is built exclusively for personal data optimization, data minimization, and individual privacy preservation." },
+    { "title": "Illicit Operations", "text": "You are strictly prohibited from using this tool to alter digital information involved in ongoing active litigation, legal subpoenas, or judicial proceedings (Spoliation of Evidence)." },
+    { "title": "Copyright Management", "text": "You agree not to utilize this tool to strip Copyright Management Information (CMI) as defined under digital copyright frameworks for the purposes of intellectual property theft or unauthorized commercial exploitation." },
+    { "title": "Limitation of Liability", "text": "This service is provided \"as is\" without warranties of any kind. The developer assumes zero liability for user non-compliance, structural misuse, or data modifications." }
+  ],
+  "privacy": [
+    { "title": "Zero Data Retention", "text": "We do not collect, process, track, or retain any data submitted to this application." },
+    { "title": "In-Memory Processing", "text": "Your files are handled strictly within volatile PHP runtime memory during the lifetime of the network request. Files are deleted automatically upon execution completion." },
+    { "title": "No Identifiers", "text": "This site uses no tracking scripts, cookies, analytics, or external third-party dependencies. Your operations remain fully confidential." }
+  ]
+}
