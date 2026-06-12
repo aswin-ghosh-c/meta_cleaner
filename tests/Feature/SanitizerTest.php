@@ -69,3 +69,21 @@ it('successfully sanitizes a valid image and deletes the temporary file afterwar
     // Verify the temporary file has been deleted from disk
     expect($filePath)->not()->toBeFile();
 });
+
+it('returns 422 JSON response when SanitizerService fails', function () {
+    $this->mock(\App\Services\ImageSanitizerService::class, function ($mock) {
+        $mock->shouldReceive('sanitize')->andThrow(new Exception('Mocked sanitization failure'));
+    });
+
+    $file = UploadedFile::fake()->image('test.jpg', 50, 50);
+
+    $response = $this->post(route('sanitizer.sanitize'), [
+        'file' => $file,
+    ], [
+        'Accept' => 'application/json',
+    ]);
+
+    $response->assertStatus(422);
+    $response->assertJson(['message' => 'Mocked sanitization failure']);
+});
+

@@ -1,19 +1,36 @@
 <?php
 
-namespace Tests\Feature;
+use App\Models\User;
+use App\Providers\AppServiceProvider;
 
-// use Illuminate\Foundation\Testing\RefreshDatabase;
-use Tests\TestCase;
+it('returns a successful response from homepage', function () {
+    $response = $this->get('/');
+    $response->assertStatus(200);
+});
 
-class ExampleTest extends TestCase
-{
-    /**
-     * A basic test example.
-     */
-    public function test_the_application_returns_a_successful_response(): void
-    {
-        $response = $this->get('/');
+it('forces https scheme in production', function () {
+    $originalEnv = app()->environment();
+    
+    // Simulate production environment
+    app()->detectEnvironment(fn() => 'production');
+    
+    $provider = new AppServiceProvider(app());
+    $provider->boot();
+    
+    // Check if scheme is forced to https
+    expect(url()->to('/'))->toStartWith('https://');
+    
+    // Restore environment
+    app()->detectEnvironment(fn() => $originalEnv);
+});
 
-        $response->assertStatus(200);
-    }
-}
+it('can create a user model', function () {
+    $user = new User([
+        'name' => 'Test User',
+        'email' => 'test@example.com',
+        'password' => 'password',
+    ]);
+    
+    expect($user->name)->toBe('Test User');
+    expect($user->email)->toBe('test@example.com');
+});
